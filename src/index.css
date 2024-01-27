@@ -1,0 +1,23 @@
+/* Add this CSS to style buttons and editor */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  .editor-container {
+    border: solid 1px black; 
+    padding: 20px; 
+    width: fit-content; 
+  }
+  
